@@ -29,7 +29,7 @@ class SplashActivity : AppCompatActivity() {
         lifecycleScope.launch {
             val country = getCountry(apiUrl)
             delay(3000)
-            if (country != "RU") {
+            if (country == "RU") {
                 startActivity(Intent(this@SplashActivity, WebViewActiv::class.java))
                 finish()
             } else {
