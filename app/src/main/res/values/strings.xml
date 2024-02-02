@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test Task</string>
+    <string name="reboot_error">Repeat</string>
+    <string name="exit_app">Repeat again to exit</string>
+</resources>
